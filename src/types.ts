@@ -10,6 +10,12 @@ export interface TimetableEvent {
   location: string;
   startDate: Date;
   endDate: Date;
+  duration: string;
+  status: string;
+  description: string;
+  recurrence?: string;
+  instructor?: string;
+  classTitle?: string;
 }
 
 export interface ChatMessage {
